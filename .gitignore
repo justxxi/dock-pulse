@@ -1,0 +1,23 @@
+# Binaries
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Node / Web
+web/node_modules/
+web/dist/
+internal/web/dist/
+
+# Test / Coverage
+*.out
+*.test
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
