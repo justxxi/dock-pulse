@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/owner/dock-pulse/internal/dockerx"
-	"github.com/owner/dock-pulse/internal/protocol"
+	"github.com/justxxi/dock-pulse/internal/dockerx"
+	"github.com/justxxi/dock-pulse/internal/protocol"
 )
 
 func TestSupervisorContainerExitAndRestart(t *testing.T) {

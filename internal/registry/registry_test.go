@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/owner/dock-pulse/internal/dockerx"
+	"github.com/justxxi/dock-pulse/internal/dockerx"
 )
 
 func TestRegistryResyncAndFiltering(t *testing.T) {

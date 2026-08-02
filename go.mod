@@ -1,4 +1,4 @@
-module github.com/owner/dock-pulse
+module github.com/justxxi/dock-pulse
 
 go 1.25.0
 

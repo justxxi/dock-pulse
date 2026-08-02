@@ -8,11 +8,11 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/owner/dock-pulse/internal/dockerx"
-	"github.com/owner/dock-pulse/internal/logs"
-	"github.com/owner/dock-pulse/internal/registry"
-	"github.com/owner/dock-pulse/internal/supervisor"
-	"github.com/owner/dock-pulse/internal/version"
+	"github.com/justxxi/dock-pulse/internal/dockerx"
+	"github.com/justxxi/dock-pulse/internal/logs"
+	"github.com/justxxi/dock-pulse/internal/registry"
+	"github.com/justxxi/dock-pulse/internal/supervisor"
+	"github.com/justxxi/dock-pulse/internal/version"
 )
 
 type Handlers struct {

@@ -8,7 +8,7 @@ import (
 	"sync/atomic"
 
 	"github.com/coder/websocket"
-	"github.com/owner/dock-pulse/internal/protocol"
+	"github.com/justxxi/dock-pulse/internal/protocol"
 )
 
 var ErrMaxConnections = errors.New("maximum websocket connections reached")

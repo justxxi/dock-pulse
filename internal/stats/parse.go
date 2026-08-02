@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/owner/dock-pulse/internal/protocol"
+	"github.com/justxxi/dock-pulse/internal/protocol"
 )
 
 type rawCPUUsage struct {

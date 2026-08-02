@@ -5,9 +5,9 @@ COMMIT ?= $(shell git rev-parse --short HEAD 2>/dev/null || echo "none")
 BUILD_DATE ?= $(shell date -u +"%Y-%m-%dT%H:%M:%SZ")
 
 LDFLAGS = -s -w \
-	-X github.com/owner/dock-pulse/internal/version.Version=$(VERSION) \
-	-X github.com/owner/dock-pulse/internal/version.Commit=$(COMMIT) \
-	-X github.com/owner/dock-pulse/internal/version.BuildDate=$(BUILD_DATE)
+	-X github.com/justxxi/dock-pulse/internal/version.Version=$(VERSION) \
+	-X github.com/justxxi/dock-pulse/internal/version.Commit=$(COMMIT) \
+	-X github.com/justxxi/dock-pulse/internal/version.BuildDate=$(BUILD_DATE)
 
 web:
 	cd web && npm install && npm run build

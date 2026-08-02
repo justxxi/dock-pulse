@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/owner/dock-pulse/internal/dockerx"
+	"github.com/justxxi/dock-pulse/internal/dockerx"
 )
 
 const ProtocolVersion = "1.0"

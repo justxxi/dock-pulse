@@ -10,12 +10,12 @@ import (
 	"time"
 
 	"github.com/coder/websocket"
-	"github.com/owner/dock-pulse/internal/auth"
-	"github.com/owner/dock-pulse/internal/hub"
-	"github.com/owner/dock-pulse/internal/logs"
-	"github.com/owner/dock-pulse/internal/protocol"
-	"github.com/owner/dock-pulse/internal/registry"
-	"github.com/owner/dock-pulse/internal/version"
+	"github.com/justxxi/dock-pulse/internal/auth"
+	"github.com/justxxi/dock-pulse/internal/hub"
+	"github.com/justxxi/dock-pulse/internal/logs"
+	"github.com/justxxi/dock-pulse/internal/protocol"
+	"github.com/justxxi/dock-pulse/internal/registry"
+	"github.com/justxxi/dock-pulse/internal/version"
 )
 
 type WSHandler struct {

@@ -9,13 +9,13 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/owner/dock-pulse/internal/auth"
-	"github.com/owner/dock-pulse/internal/dockerx"
-	"github.com/owner/dock-pulse/internal/hub"
-	"github.com/owner/dock-pulse/internal/logs"
-	"github.com/owner/dock-pulse/internal/registry"
-	"github.com/owner/dock-pulse/internal/supervisor"
-	"github.com/owner/dock-pulse/internal/web"
+	"github.com/justxxi/dock-pulse/internal/auth"
+	"github.com/justxxi/dock-pulse/internal/dockerx"
+	"github.com/justxxi/dock-pulse/internal/hub"
+	"github.com/justxxi/dock-pulse/internal/logs"
+	"github.com/justxxi/dock-pulse/internal/registry"
+	"github.com/justxxi/dock-pulse/internal/supervisor"
+	"github.com/justxxi/dock-pulse/internal/web"
 )
 
 func NewRouter(

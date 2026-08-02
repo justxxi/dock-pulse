@@ -10,7 +10,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/owner/dock-pulse/internal/auth"
+	"github.com/justxxi/dock-pulse/internal/auth"
 )
 
 type contextKey string

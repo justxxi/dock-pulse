@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/owner/dock-pulse/internal/dockerx"
-	"github.com/owner/dock-pulse/internal/registry"
+	"github.com/justxxi/dock-pulse/internal/dockerx"
+	"github.com/justxxi/dock-pulse/internal/registry"
 )
 
 type Watcher struct {

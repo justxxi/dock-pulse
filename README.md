@@ -2,12 +2,9 @@
 
 Single binary container telemetry and supervision dashboard for Docker.
 
-[![CI](https://github.com/owner/dock-pulse/actions/workflows/ci.yml/badge.svg)](https://github.com/owner/dock-pulse/actions/workflows/ci.yml)
+[![CI](https://github.com/justxxi/dock-pulse/actions/workflows/ci.yml/badge.svg)](https://github.com/justxxi/dock-pulse/actions/workflows/ci.yml)
 [![Go Version](https://img.shields.io/badge/go-1.23+-00ADD8.svg)](https://golang.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-
-![dock-pulse dashboard](docs/screenshot.png)
-The screenshot above shows the live container grid, real-time log viewer, and command palette.
 
 ## Scope
 
@@ -29,7 +26,7 @@ docker run -d \
   --name dock-pulse \
   -p 127.0.0.1:8080:8080 \
   -v /var/run/docker.sock:/var/run/docker.sock:ro \
-  ghcr.io/owner/dock-pulse:latest
+  ghcr.io/justxxi/dock-pulse:latest
 ```
 
 Run using the pre-compiled binary:
@@ -77,7 +74,7 @@ The supervisor monitors container exit events with non-zero exit codes.
 - Containers using native Docker restart policies (`always`, `unless-stopped`) are ignored by the supervisor.
 - Backoff formula: `delay = min(max_interval, base_interval * 2^(attempt-1)) * random(0, 1)`.
 - If a container remains healthy longer than 30 seconds, the restart attempt counter is reset to zero.
-- When attempts are exhausted, the container is marked as `restart_exhausted`, a event is broadcast, and further automatic restarts stop until user action.
+- When attempts are exhausted, the container is marked as `restart_exhausted`, an event is broadcast, and further automatic restarts stop until user action.
 - Manual container stop from the UI marks the container as intentionally stopped and suppresses supervisor action.
 
 ## Architecture

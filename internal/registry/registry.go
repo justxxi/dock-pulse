@@ -8,7 +8,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/owner/dock-pulse/internal/dockerx"
+	"github.com/justxxi/dock-pulse/internal/dockerx"
 )
 
 type Registry struct {

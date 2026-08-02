@@ -15,7 +15,7 @@ builds:
     flags:
       - -trimpath
     ldflags:
-      - -s -w -X github.com/owner/dock-pulse/internal/version.Version={{.Version}} -X github.com/owner/dock-pulse/internal/version.Commit={{.ShortCommit}} -X github.com/owner/dock-pulse/internal/version.BuildDate={{.Date}}
+      - -s -w -X github.com/justxxi/dock-pulse/internal/version.Version={{.Version}} -X github.com/justxxi/dock-pulse/internal/version.Commit={{.ShortCommit}} -X github.com/justxxi/dock-pulse/internal/version.BuildDate={{.Date}}
 archives:
   - format: tar.gz
     name_template: "{{ .ProjectName }}_{{ .Version }}_{{ .Os }}_{{ .Arch }}"
